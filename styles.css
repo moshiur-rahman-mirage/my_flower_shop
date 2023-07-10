@@ -238,3 +238,45 @@ font-style: normal;
 font-weight: 400;
 /* width:600px */
 }
+
+
+.card2{
+    margin: 0 20px;
+}
+
+footer{
+    background-color: #111010;
+    height: 40vh;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+
+.fh{
+    color:white;
+    font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.mainp{
+    color: rgba(255, 255, 255, 0.90);
+font-size: 14px;
+font-style: normal;
+width: 400px;
+}
+
+.light-footer{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+}
