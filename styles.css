@@ -280,3 +280,43 @@ font-size: 12px;
 font-style: normal;
 font-weight: 400;
 }
+
+
+.img-container {
+    position: relative;
+    text-align: center;
+    /* color: white; */
+  }
+
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .rect-img{
+    width:930px;
+    padding-bottom: 70px;
+  }
+  .input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .email{
+    width:550px;
+    height: 50px;
+    border-radius: 8px;
+    background: #FFF;
+    margin-right: 20px;
+  }
+
+  ::placeholder{
+    margin-left: 20px;
+    padding-left: 30px;
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 400;
+    font-size: medium;
+  }
